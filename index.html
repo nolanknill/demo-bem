@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plans | Yellow as a Fido</title>
+    <link rel="stylesheet" href="./css/global.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__item">
+                <a href="#" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link nav__link--active">Plans</a>
+            </li>
+            <li class="nav__item">
+                <a href="#" class="nav__link">Billing</a>
+            </li>
+        </ul>
+    </nav>
+
+    <h1 class="page-title">Plans</h1>
+
+    <!-- Plans Section -->
+    <section class="plans">
+        
+        <h2 class="plans__title">Select a Plan</h2>
+        
+        <ul class="plans__options">
+            <li class="plan-type">
+                <h3 class="plan-type__tier">Basic</h3>
+                <p>Some information about the plan.</p>
+                <span class="plan-type__price">$10.00</span>
+                <button class="plan-type__button">Select</button>
+            </li>
+
+            <li class="plan-type plan-type--recommended">
+                <h3 class="plan-type__tier">Better</h3>
+                <p>Some information about the plan.</p>
+                <span class="plan-type__price">$15.00</span>
+                <button class="plan-type__button">Select</button>
+            </li>
+
+            <li class="plan-type">
+                <h3 class="plan-type__tier">Best</h3>
+                <p>Some information about the plan.</p>
+                <span class="plan-type__price">$20.00</span>
+                <button class="plan-type__button">Select</button>
+            </li>
+
+        </ul>
+    </section>
+    <!-- End of Plans Section -->
+
+    <!-- Billing Section -->
+    <section class="billing">
+        <h2 class="billing__title">Choose Billing</h2>
+        <ul class="billing__cycles">
+            <li class="billing__period">Annual</li>
+            <li class="billing__period billing__period--selected">Monthly</li>
+            <li class="billing__period">Weekly</li>
+        </ul>
+        <button class="billing__pay-now">Pay</button>
+    </section>
+
+</body>
+</html>

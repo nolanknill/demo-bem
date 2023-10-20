@@ -1,0 +1,101 @@
+.nav {
+    background-color: #daa521;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.nav__list {
+    list-style: none; padding: 0; 
+}
+
+.nav__item { 
+    display: inline-block; 
+    margin-right: 1rem;
+} 
+
+.nav__link { 
+    color: #fff; 
+    text-decoration: none;
+}
+
+.nav__link:hover,
+.nav__link--active {
+    border-bottom: 2px solid #fff;
+}
+
+.page-title {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.plans__title, 
+.billing__title {
+    border-bottom: 0.25rem solid #daa521;
+    padding-bottom: 0.75rem;
+    margin-bottom: 0.75rem;
+}
+
+.plan-type {
+    display:inline-block;
+    border-radius: 0.5rem;
+    border: 1px solid #808080;
+    padding: 1rem;
+    margin-right: 0.25rem;
+    width: 12rem;
+}
+
+.plan-type--recommended {
+    background-color: #ffd602;
+}
+
+
+.plan-type__tier {
+    background-color:  #e5e5e5;
+    margin-bottom: 0.75rem;
+    display: inline-block;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.plan-type__price {
+    font-size: 1.75rem;
+    margin: 0.75rem 0;
+    display: block;
+}
+
+.plan-type__button {
+    width: 100%;
+}
+
+.plan-type__button,
+.billing__pay-now {
+    background-color: #daa521;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+
+.billing {
+    margin-top: 1rem;
+    background-color: #f0f0f0;
+    padding: 1rem;
+}
+
+.billing__cycles {
+    margin-left: 1rem;
+}
+
+.billing__period {
+    margin-bottom: 0.25rem;
+}
+
+.billing__period--selected {
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding-left: 0.5rem;
+}
+
+.billing__pay-now {
+    margin-top: 0.5rem;
+}
